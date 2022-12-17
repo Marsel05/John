@@ -1,0 +1,275 @@
+@media (max-width: 1440px) {
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    .block-nav{
+        width: 70%;
+    }
+
+}
+@media (max-width: 1200px) {
+    .block-nav {
+        width: 76%;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+#header{
+    padding: 25px 0;
+}
+}
+@media (max-width: 992px) {
+.cbor{
+    flex-direction: column;
+
+}
+    .block h4{
+        left: 43px;
+    }
+    .recent-nav{
+        justify-content: space-evenly;
+    }
+    .boxs{
+        width: 428px;
+        padding: 35px 0;
+    }
+    .making{
+        margin-bottom: 30px;
+    }
+    .block-nav {
+        width: 90%;
+        padding: 25px;
+    }
+    .liner{
+        left: 65px;
+    }
+}
+@media (max-width: 768px) {
+    .cbor{
+    flex-direction: column;
+}
+    .block-nav p {
+        width: 408px;
+    }
+    .block-nav {
+        width: 90%;
+    }
+    .liner {
+        width: 649px;
+        left: 39px;
+    }
+    .hero-nav{
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero button{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 576px) {
+
+.block-nav{
+    flex-direction: column;
+}
+    .liner {
+        left: 25px;
+        width: 414px;
+    }
+    #recent {
+        margin: 50px 0;
+    }
+    .block h4 {
+        left: 46px;
+    }
+
+}
+@media (max-width: 451px) {
+    .hero-nav p {
+        font-size: 15px;
+        width: 405px;
+    }
+
+    .hero-nav h1 {
+        font-size: 34px;
+    }
+
+    .liner {
+        width: 375px;
+        left: 43px;
+    }
+
+    .cbor {
+        padding: 35px;
+        margin: 0 25px;
+    }
+
+    .boxs {
+        width: 370px;
+    }
+
+    .making {
+        width: 370px;
+    }
+
+    #recent {
+        margin: 50px 25px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .block-nav p {
+        width: 373px;
+    }
+
+    .block-nav {
+        padding: 25px 0;
+    }
+
+    #recent {
+
+        padding: 0 0;
+    }
+
+    .recent-nav {
+        margin: -29px;
+    }
+
+    .box-left h1 {
+
+        font-size: 25px;
+    }
+
+    .box-right h1 {
+
+        font-size: 25px;
+    }
+
+    @media (max-width: 400px) {
+        .liner {
+            width: 324px;
+
+        }
+
+        .block-nav p {
+            width: 334px;
+        }
+
+        .hero-nav p {
+
+            width: 337px;
+        }
+
+        .box-right h1 {
+            font-size: 23px;
+        }
+
+        .box-left h1 {
+            font-size: 22px;
+        }
+
+        .box-left p {
+            width: 297px;
+            font-size: 13px;
+        }
+
+        .box-right h1 {
+            font-size: 21px;
+        }
+
+        .box-right p {
+            font-size: 13px;
+            width: 292px;
+        }
+
+        .design h4 {
+
+            width: 148px;
+        }
+
+        @media (max-width: 376px) {
+            .liner {
+                width: 304px;
+            }
+
+            .block-nav p {
+                width: 320px;
+            }
+
+            #hero {
+                padding: 60px 0;
+            }
+
+            .hero button {
+                margin-bottom: 35px;
+            }
+            #header {
+                padding: 7px 0;
+                width: 90%;
+            }
+
+            @media (max-width: 320px) {
+           .hero-nav h1{
+    line-height: 40px;
+    font-size: 24px;
+}
+                .making {
+                    width: 230px;
+                }
+                .boxs {
+                    width: 230px;
+                }
+                .box-left p {
+                    font-size: 10px;
+                }
+                .design h4{
+                    font-size: 14px;
+                }
+                .box-left h1 {
+                    font-size: 13px;
+                }
+                .recent-nav h2 {
+
+                    font-size: 18px;
+                }
+                .box-right h1 {
+                    font-size: 14px;
+                }
+                #header {
+                    width: 100%;
+                }
+                #block {
+                    padding: 20px 0;
+                }
+                .box-right p {
+                    font-size: 10px;
+                }
+                .liner {
+                    width: 232px;
+                }
+                .block-nav p {
+                    width: 255px;
+                }
+                .hero-nav p {
+                    width: 290px;
+                    font-size: 13px;
+                }
+                .design h4 {
+                    width: 98px;
+                }
+                .box-left p {
+                    width: 196px;
+                }
+                .box-right p {
+                    width: 196px;
+                }
+            }
+        }
+    }
+}
